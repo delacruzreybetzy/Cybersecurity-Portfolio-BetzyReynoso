@@ -1,1 +1,8 @@
-A network Lab
+### 🔬 [Labs](/Labs)
+Hands-on projects demonstrating practical IT skills.
+
+- **[Home Network Lab](/Labs/Home-Network-Lab)**  
+  A step-by-step guide to configuring a secure SOHO network with guest isolation, including diagrams and security considerations.
+
+- **[PowerShell Health Check Script](/Labs/PowerShell-Health-Check)**  
+  An automated script that checks system disk space, service status, and network adapters—designed to speed up remote diagnostics.
