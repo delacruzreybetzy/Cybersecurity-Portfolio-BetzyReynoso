@@ -11,9 +11,9 @@ I am a IT focused student with a CompTIA Security+ certification and hands-on ex
 
 | Folder | Description | Status |
 |--------|-------------|--------|
-| **Incident-Response** | Investigations of security incidents including phishing analysis and suspicious login investigations | 🚧 In progress |
+| **Incident-Response** | Investigations of security incidents | 🚧 In progress |
 | **SOC-Reports** | Security alert analysis and weekly threat summaries similar to SOC analyst work | 📝 Discription added |
-| **Labs** | Hands-on technical projects including home network setup and PowerShell scripting | 🚧 In progress |
+| **Labs** | Hands-on technical projects including home network setup | 🚧 In progress |
 | **Certifications** | Industry certifications and awards | ✅ Security+ |
 
 ---
