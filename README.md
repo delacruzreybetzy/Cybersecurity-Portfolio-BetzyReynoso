@@ -18,6 +18,6 @@ I am a IT focused student with a CompTIA Security+ certification and hands-on ex
 
 ---
 
-## 📌 Portfolio Status
+## Portfolio Status
 
 This portfolio is a **living document** and will be updated regularly as I complete new projects, labs, and certifications.
