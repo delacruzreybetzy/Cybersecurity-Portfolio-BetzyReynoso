@@ -1,5 +1,5 @@
 # Labs
-Hands-on projects demonstrating practical IT skills.
+This folder will document hands-on technical projects. Each lab will include step-by-step explanations, tools used, and key takeaways.
 
 - [Home Network Lab](/Labs/Home-Network-Lab) (In progress)
   A step-by-step to configuring a secure SOHO network with guest isolation, including diagrams and security considerations.
