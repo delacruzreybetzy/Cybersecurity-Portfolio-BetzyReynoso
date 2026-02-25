@@ -3,6 +3,3 @@ This folder will document hands-on technical projects. Each lab will include ste
 
 - [Home Network Lab](/Labs/Home-Network-Lab) (In progress)
   A step-by-step to configuring a secure SOHO network with guest isolation, including diagrams and security considerations.
-
-- [PowerShell Health Check Script](/Labs/PowerShell-Health-Check)  (In progress)
-  An automated script that checks system disk space, service status, and network adapters—designed to speed up remote diagnostics. 
