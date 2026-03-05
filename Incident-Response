@@ -1,2 +1,53 @@
 # Incident-Response
 This folder will contain investigations of security incidents. Each case study will walk through how a threat was detected, analyzed, and resolved.
+
+---
+
+# Phishing-Case-Study
+
+## 1. Email Analysis & Indicators
+
+### Sender Address Analysis
+- **Sender:** chrispid@t-online.de
+- **Claimed Organization:** Sterling Savings Bank
+- **Red Flag:** The sender domain (@t-online.de) does not match the claimed organization. A legitimate bank would send invoices from their own domain (e.g., @sterlingbank.com).
+
+### Recipient Analysis
+- **To:** "j" (incomplete address)
+- **Addressed to:** "John Gasdaska"
+- **Red Flag:** The email was sent to an incomplete address but uses a specific name—suggests a mass phishing email with placeholders.
+
+### Language & Tone Analysis
+- **Assumption language:** "I am assuming that you might have unintentionally overlooked"
+- **Threat/Urgency:** "early withdrawal penalties will apply"
+- **Red Flag:** Creates false urgency and assumes guilt without evidence—classic phishing psychology.
+
+### Attachment Indicator
+- "Refer to the attached document"
+- **Red Flag:** Attachments in unsolicited emails often contain malware or fake login pages.
+
+### Geographic/Contact Inconsistency
+- **Claimed Location:** Albuquerque, New Mexico
+- **Sender Domain:** German (.de) email provider
+- **Red Flag:** Legitimate US banks don't send invoices from German personal email accounts.
+
+---
+
+## 2. Conclusion
+**This email is a phishing attempt.** It contains 6+ clear indicators of malicious intent and does not meet legitimate business communication standards.
+
+---
+
+## 3. Recommendations
+
+### For the User:
+- Do not open the attachment
+- Do not reply to the sender
+- Delete the email immediately
+- Report to IT department
+
+### For the Organization:
+- Block t-online.de domain in email gateway
+- Add sender email to blacklist
+- Send awareness alert about invoice-themed phishing
+- Consider simulating similar phishing emails for training
